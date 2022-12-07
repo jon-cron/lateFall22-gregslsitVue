@@ -6,8 +6,8 @@
         <HouseForm />
       </div>
     </div>
-        <div class="row">
-          <div v-for="h in houses" class="col-md-4 p-3">
+        <div class="row justify-content-evenly">
+          <div v-for="h in houses" class="col-md-3 p-2">
             <HouseCard :house="h"/>
           </div>
         </div>
